@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+.hero{
+  background-image: url(../img/bg\ image\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: centers;
+}
+.hero_content{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero_content h1{
+  font-size: 40px;
+  color: white;
+}
+.hero_content h2{
+  font-size: 15px;
+  padding-top: 10px;
+  color: white;
+}
+.hero_content a{
+  border: 2px solid orange;
+  padding:10px 5px 10px 5px;
+  text-decoration: none;
+  margin-top:30px;
+  background-color: orange;
+  color: black;
+}
